@@ -1,0 +1,323 @@
+:root{
+    color:#8E2424;
+    color:#667085;
+    color:#ffff
+    fonte-inter "Inter", sans serif;
+}
+
+body{
+    background-color:#ffff;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family:'font-inter';
+}
+
+.container-navbar{
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 32px;
+}
+
+.logo-navbar{
+    gap: 8px;
+}
+
+.menus-de-acesso{
+    display: flex;
+    gap: 32px;
+    padding-right: 30%;
+}
+
+.menu-de-acesso{
+    text-decoration: none;
+    color:#667085;
+    font-family:'font-inter';
+    font-size: 16px;
+}
+
+/*botões*/
+.botao-menus-de-acesso{
+    font-family:'font-inter';
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.entrar{
+    background-color:#ffffff00;
+    border: none;
+    color: #667085;
+
+}
+
+.cadastro{
+    background-color:#8E2424;
+    color:#ffff;
+    border: none;
+
+}
+/*cabeçalh0*/
+.container-cabecalho{
+    text-align: center;
+    padding: 6rem 0rem;
+
+}
+.subtitulo-cabecalho{
+    color:#8E2424;
+    font-size: 1rem;
+
+}
+.titulo-cabecalho{
+    font-size: 48px;
+
+}
+.texto-cabecalho{
+    font-size: 20px;
+    color:#667085;
+    padding: 0% 22%;
+}
+
+/*Metricas*/
+.container-metricas{
+    list-style-type: none;
+    display: flex;
+    padding: 0% 10%;
+    padding-bottom: 6rem;
+    text-align: start;
+    gap: 2rem;
+
+}
+.titulo-metricas{
+    color:#8E2424;
+    font-size: 60px;
+    margin: 0px;
+
+}
+.subtitulo-metricas{
+    color:black;
+    font-size: 18px;
+
+}
+.texto-metricas{
+color:#667085;
+font-size: 16px;
+
+}
+
+.container-vagas{
+text-align: center;
+
+}
+
+.container-vagas-textos{
+padding-bottom: 32px;
+}
+
+.subtitulo-vagas{
+font-size: 14px;
+    color: #8E2424;
+    background-color: #8E24240D;
+    border-radius: 1rem;
+    padding: 4px 12px;
+    display: inline;
+}
+
+.titulos-vagas{
+font-size: 36px;;
+}
+
+.texto-vagas{
+font-size: 20px;
+color: #667085;
+}
+
+.imagem-vagas{
+    width: 80%;
+    padding: 0% 10%;
+}
+.container-vagas-abertas {
+    padding: 0% 23%;
+}
+
+.caixa-vagas-abertas {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px 24px 28px 24px;
+    margin-bottom: 24px;
+}
+
+.descricao-vagas-abertas {
+    display: flex;
+    gap: 24px;
+}
+
+.vaga-vagas-abertas{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.titulo-vagas-abertas {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+.tempo-vagas-abertas {
+    color: var(--cor-cinza);
+}
+
+.salario-vagas-abertas {
+    color: var(--cor-cinza);
+}
+
+.container-feedback {
+    text-align: center;
+    padding: 5% 9% 8% 9%;
+}
+
+.caixa-feedback {
+    background-color: #C3191908;
+    padding: 3%;
+    border-radius: 16px;
+}
+
+.texto-feedback {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--cor-vermelha);
+}
+
+.titulo-feedback {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.nome-colaboradora-feedback {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 1% 0% 0.5% 0%;
+}
+
+.cargo-colaboradora-feedback {
+    color: var(--cor-cinza);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0%;
+}
+
+.container-formulario {
+    text-align: center;
+    background-color: #F9FAFB;
+    padding: 4% 0%;
+}
+
+.titulo-formulario {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.texto-formulario {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cor-cinza);
+}
+
+.input-formulario {
+    padding: 12px 100px 12px 14px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cor-cinza);
+}
+
+.botao-formulario {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 12px 20px;
+    border: 1px;
+    margin-left: 0.5%;
+}
+
+.input-botao-formulario {
+    padding: 2% 0%;
+}
+
+.container-rodape {
+    color: #98A2B3;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-navbar {
+        display: block;
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    .logo-navbar {
+        padding-bottom: 8%;
+    }
+
+    .links-navbar {
+        gap: 4%;
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+
+    .botoes-navbar {
+        justify-content: center;
+        flex-direction: column;
+        display: inline-flex;
+    }
+
+    .botao-entrar {
+        border: 1px solid #D0D5DD;
+    }
+
+    .container-cabecalho {
+        padding: 48px 32px;
+    }
+
+    .container-metricas {
+        display: block;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    .subtitulo-metricas {
+        margin: 1% 0% 2% 0%;
+    }
+
+    .container-vagas-textos {
+        padding-bottom: 1%;
+    }
+
+    .container-vagas-abertas {
+        padding: 0% 10%;
+    }
+
+    .titulo-vagas-abertas {
+        text-align: center;
+    }
+
+    .container-feedback {
+        padding-bottom: 20%;
+    }
+
+    .input-formulario {
+        margin-bottom: 2%;   
+    }
+
+    .container-formulario {
+        padding: 15px 32px 15px 32px;
+    }
+}
